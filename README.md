@@ -1,25 +1,17 @@
 # Computer Networks Project: Video-Chat-Application-using-Scaledrone-API
-Created the project in 2018. It is a simple Peer to Peer Video Chat Application using three ideas:
+The project was created in 2018. The application is a simple peer-to-peer video chat application that uses three resources:
 
-i) WebRTC – Web Real Time Communication
+1) WebRTC - Web Real Time Communication Framework.
+2) Scaledrone - A real time messaging service platform for signalling service.
+3) Any WebRTC supported browser (Recommended: Google Chrome). 
 
-ii) Scaledrone- A real time messaging service platform for
-signalling service
+## Implementation Process:
 
-iii) Google Chrome browser- Any WebRTC supported browser will
-work .
+In this application, there are two users, i.e. a host and a remote host. Remote hosts are also known as offerers. The application is written using HTML and JavaScript. Both users can start their webcams individually by running the HTML file in a browser. Every time a user runs the file, a hash key is generated. If two users want to get into the same room, the Hash key must be the same, i.e. a two-way communication. The Hash key works as a password that can be shared between two users in order to get into the same room.
+*For Example:
+file:///C:/Users/ABC/Desktop/webrtc-master/index.html#41061d*
 
-Implementation:
-
-In this application there are two users ie. A host and a remote host. Remote host is also called as offerer. The application is made using html and javascript. Both the users can individually start their webcams by running the html file in a browser. A hash key is generated every time a user runs the file.
-
-If two users want to get in the same room then the hash key has to be same. ie. to have a two way communication Hash key works as a password that can be shared between two users to get into the same room.
-
-Example:
-file:///C:/Users/ABC/Desktop/webrtc-master/index.html#41061d
-
-In the above url: #41061d is the hash key
+    a) In the above url: #41061d is the hash key
 
 If the same hash key is used in a different location on a different computer still the network connection will be established.
 
-Thankyou.
