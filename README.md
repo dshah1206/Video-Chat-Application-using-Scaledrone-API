@@ -1,4 +1,4 @@
-# Computer Networtks Project: Video-Chat-Application-using-Scaledrone-API
+# Computer Networks Project: Video-Chat-Application-using-Scaledrone-API
 Created in 2018
 A simple Peer to Peer Video Chat Application using
 i) WebRTC – Web Real Time Communication
